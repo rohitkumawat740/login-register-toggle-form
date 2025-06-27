@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Registration Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=0.1'>
+    <link rel='stylesheet' type='text/css' href='style.css'> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>   
+   <header class="header"> 
+       <a href="#" class="logo">AccessHub</a>
+            <nav class="navbar">
+           <a href="#">Home</a> 
+             <a href="#">About</a> 
+                  <a href="#">Services</a> 
+                    <a href="#">Contact</a>  
+                    <button class="btnLogin-popup">Login</button>
+                    </nav>  
+                    </header>
+ 
+                    <section class="container">
+                     <div class="wrapper">
+                      <span class="icon-close">
+                      <i class='bx bx-x'></i></span>
+                       <div class="wrapper-box">
+                        <!--Login-form--> 
+                            <div class="form-box login active"> 
+                              <div class="login-title">
+                           <h2>Login</h2>
+                           <p>Please login to use the platform</p>
+                           </div> 
+                           <div class="input-box">
+                               <span class="icon"><i class='bx bxs-envelope'></i></span>
+                              <input type="email" id="login-email" required> 
+                                 <label for="login-email">Email</label>
+                                  </div>
+                                   <div class="input-box">
+                                     <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                              <input type="password" id="login-password" required> 
+                                 <label for="login-password">Password</label>
+                                  </div>
+                                  <div class="remember-forgot">
+                                    <label for="remember-login"> <input type="checkbox" id="remember-login"> Remember Me 
+                                    <a href="#">Forgot password?</label>
+                                  </div>
+                                  <button type="submit" class="btn" id="login-btn" name="login">
+                                    Login</button>
+                                   <div class="wrapper-link">
+                                    <p>Don't have an account?<a href="#" 
+                                      class="register-link">Register</a></p>
+                                   </div> 
+                                     <div class="social-media">  
+                                      <a href="#"><i class='bx bxl-google' ></i>
+                                        <span>Login with Google</span></a>
+                                         <a href="#"><i class='bx bxl-facebook-circle' ></i>
+                                        <span>Login with Facebook</span></a>
+                                   </div>
+                       </div>  
+                       </div>
+                       
+
+                       <!--Register-form-->
+                            <div class="form-box register"> 
+                              <div class="login-title">
+                           <h2>Registration</h2>
+                           <p>Please provide the following to verify your activity</p>
+                           </div> 
+                            <div class="input-box">
+                               <span class="icon"><i class='bx bxs-user-circle'></i></span>
+                              <input type="text" id="register-name" name="fullname" required> 
+                                 <label for="register-name">Full Name</label>
+                                  </div>
+                           <div class="input-box">
+                               <span class="icon"><i class='bx bxs-envelope'></i></span>
+                              <input type="email" id="register-email" name="register-email" required> 
+                                 <label for="register-email">Email</label>
+                                  </div>
+                                   <div class="input-box">
+                                     <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                              <input type="password" id="register-password" name="register-password" required> 
+                                 <label for="register-password">Password</label>
+                                  </div>
+                                  <div class="remember-forgot">
+                                    <label for="accept-terms"> <input type="checkbox" id="accept-terms">
+                                      I agree to the terms & conditions</label>
+                                  </div>
+                                  <button type="submit" class="btn" id="register-btn" name="register">
+                                    Register</button>
+                                   <div class="wrapper-link">
+                                    <p>Already have an account?<a href="#" 
+                                      class="login-link">Login</a></p>
+                                   </div>
+                                    <div class="social-media">  
+                                      <a href="#"><i class='bx bxl-google' ></i>
+                                        <span>Login with Google</span></a>
+                                         <a href="#"><i class='bx bxl-facebook-circle' ></i>
+                                        <span>Login with Facebook</span></a>
+                                   </div>
+                                  </form>
+                                  </div>
+                                  </div>
+                       </div>   
+                       
+                    </section>
+                    <script src="script.js"></script>
+</body>
+</html>
+
+ 
